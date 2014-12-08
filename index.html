@@ -10,10 +10,7 @@
 
   <title>Ruchi Malik</title>
 
- <!-- Custom styles for this template -->
   <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-<!--   <link href="css/normalize.scss" rel="stylesheet" type="text.scss">
-  <link rel="stylesheet" href="css/base.scss"> -->
   <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -21,27 +18,29 @@
 <body>
 
   <div id="nav">
-     <ul id="contact-list">
+    <ul class="contact-links">
       <li><a href="http://www.linkedin.com/in/rmk22/" target=_blank ><img src="images/linked_in.png" alt="Ruchi Malik's LinkedIn" title="LinkedIn" class="contact-link"></a></li>
+
       <li><a href="http://www.github.com/ruchimk" target=_blank><img src="images/github.png" alt="GitHub" title="GitHub" class="contact-link"></a></li>
+
       <li><a href="http://www.twitter.com/ruuuchi" target=_blank><img src="images/twitter.png" alt="Ruchi Malik's Twitter" title="Twitter" class="contact-link"></a></li>
     </ul>
 
-    <ul id="deep-link-list">
-      <li><a href="#intro" id="intro-link" class="deep-link">Intro</a></li>
-      <li><a href="#portfolio" id="portfolio-link" class="deep-link">Portfolio</a></li>
-      <li><a href="#about-me" id="about-link" class="deep-link">About</a></li>
+    <ul class="deep-links">
+      <li><a href="#intro" class="deep-link">Intro</a></li>
+      <li><a href="#portfolio" class="deep-link">Portfolio</a></li>
+      <li><a href="#about" class="deep-link">About</a></li>
     </ul>
+
   </div>
 
 
 <div class="wrapper">
 
     <div id="intro">
-      <div id="intro-content">
-  <!--       <img src="images/headshot.png"> -->
-        <p id="intro_title">Hello! I'm Ruchi.</p>
-        <p id="intro_desc">Full stack web-developer looking for opportunities in San Francisco.</p>
+      <div class="intro-content">
+        <p class="intro_title">Hello! I'm Ruchi.</p>
+        <p class="intro_desc">Full stack web-developer looking for opportunities in San Francisco.</p>
       </div>
     </div>
 
@@ -50,49 +49,45 @@
       <p>In Fall 2014, I began <a href="https://generalassemb.ly/education/web-development-immersive" target=_blank>General Assembly's</a> full-time web development bootcamp, where over the course of 12 weeks I learned Ruby on Rails, Git, PostgreSQL, and JavaScript, HTML5 and CSS3.</p>
     </div>
 
-    <div id="projects">
-      <div id="work">
-        <div id="fitbud" class="project">
+      <div class="all-projects">
+
+        <div class="project">
           <a href="http://fitbud.herokuapp.com" target=_blank><img src="images/Fitbud.png"></a>
           <span class="description">
             <h3><a href="http://fitbud.herokuapp.com" target=_blank>FitBud</a></h3>
-            <p class="source"><a href="https://github.com/ruchimk/FitBud" target=_blank>View Source</a></p>
+            <p class="source"><a href="https://github.com/ruchimk/FitBud" target=_blank>Github-View Source</a></p>
             <p>FitBud is my first Ruby on Rails project. It is an application that makes it easy for users to find others interested in their favorite outdoor activity. Finding the motivation to workout alone can be difficult, but with the help of FitBud, you can make a new friend to help you stay motivated and on track with your goals!</p>
-            <hr>
-          <p><b>Technologies</b>: Ruby on Rails, Devise, Postgresql</p>
+            <hr><p><b>Technologies</b>: Ruby, Ruby on Rails, Devise, Postgresql</p>
           </span>
         </div>
-        <div id="shiftable" class="project">
+
+        <div class="project">
           <a href="http://shiftable1.herokuapp.com" target=_blank><img src="images/Shiftable.png"></a>
           <span class="description">
             <h3><a href="http://shiftable1.herokuapp.com" target=_blank>Shiftable</a></h3>
-            <p class="source"><a href="https://github.com/ruchimk/shift_management_system" target=_blank>View Source</a></p>
+            <p class="source"><a href="https://github.com/ruchimk/shift_management_system" target=_blank>Github-View Source</a></p>
             <p>Shiftable was made as a group project built on Ruby on Rails & JavaScript. Shiftable provides a reliable, convenient, and simple platform for employees and shift-managers to manage, share and edit shift schedules. </p>
             <hr>
-            <p><b>Technologies</b>: Ruby on Rails, Javascript, Postgresql, Devise</p>
+            <p><b>Technologies</b>: Ruby, Ruby on Rails, Javascript, Postgresql, Devise</p>
           </span>
         </div>
-      </div>
-    </div>
 
-    <div id="about-me">
-      <div id="about-content">
+      </div>
+
+    <div id="about">
+      <div class="about-content">
         <h2>About</h2>
-        <div class="about-me">
+        <div class="about-body">
            <p> I am an enthusiastic and discerning collaborator, who has always been facsinated by the world of technology and all its possibilities.</p><p> I come from a diverse background. I have an educational backround in the life sciences and have worked as a lab tech, government administator, and project manager. However, I had always had an interest in learning how to code, and decided to take the leap this year, and am <strong>so </strong>glad I did! <br>
            <p> I will be graduating from the program in December and am looking to join forces with an organization where where I can use my skills to make a meaningful social impact. </p>
         </div>
-
         </div>
-          <p></p>
-        </div>
-      </div>
-    </div>
+     </div>
+   </div>
 
     <div id="footer">
       <p>&copy;2014 Ruchi Malik</p>
     </div>
-</div>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
