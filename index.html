@@ -1,105 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Ruchi Malik's Portfolio Webiste">
-    <meta name="author" content="Ruchi Malik">
-    <link rel="icon" type="images/ico" href='images/favicon.ico' />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./images/ruchiLogo.png">
 
-  <title>Ruchi Malik</title>
+    <title>Ruchi Malik</title>
+    <!-- Bootstrap core CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-mfizz.css">
+    <link rel="stylesheet" type="text/css" href="device-mockups/device-mockups.css" />
+  </head>
 
-  <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/style.css">
+  <body data-spy="scroll" data-target=".navbar">
 
-</head>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a data-scroll class="navbar-brand" href="#jumbotron">Ruchi Malik</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav portfolio-nav">
+            <li><a data-scroll href="#portfolio">Portfolio</a></li>
+            <li><a data-scroll href="#skills">Skills</a></li>
+            <li><a data-scroll href="#about-me">About Me</a></li>
+            <li><a target="_blank" href="images/ruchimalik_resume.pdf">Resume</a></li>
+          </ul>
 
-<body>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="contact-link" target="_blank" href="https://github.com/ruchimk"><i class="fa fa-github fa-inverse fa-2x"></i></a>
+            </li>
+            <li>
+              <a class="contact-link" target="_blank" href="http://www.linkedin.com/in/rmk22"><i class="fa fa-linkedin fa-inverse fa-2x"></i></a>
+            </li>
+            <li>
+              <a class="contact-link" target="_blank" href="https://twitter.com/ruuuchi"><i class="fa fa-twitter fa-inverse fa-2x"></i></a>
+            </li>
+            <li>
+              <a class="contact-link" href="mailto:rmalik2788@gmail.com"><i class="fa fa-envelope fa-inverse fa-2x"></i></a>
+            </li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
 
-  <div id="nav">
-    <ul class="contact-links">
-      <li><a href="http://www.linkedin.com/in/rmk22/" target=_blank ><img src="images/linked_in.png" alt="Ruchi Malik's LinkedIn" title="LinkedIn" class="contact-link"></a></li>
+    <div class="jumbotron" id="jumbotron">
+      <div id="intro" class="brand-statement container">
+        <h1>Hi, I'm Ruchi</h1>
+        <p>
+          Full-stack developer looking for opportunities in San Francisco.
+        </p>
+      </div>
+    </div>
+<br>
+<br>
+<br>
+  <div class="container portfolio" id="portfolio" name="portfolio">
+    <h2>Portfolio</h2>
+    <br>
+    <hr>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <h3><a target="_blank" href="http://sp3ak-up.herokuapp.com/">Fitbud</a></h3>
+          <p class="lead">
+            A social media app designed to help you stay fit and meet new people at the same time.
+          </p>
+          <div class="project-description">
+            <p>
+              <strong>Fitbud</strong> is an application that makes it easy for users to find others interested in their favorite outdoor activity. Finding the motivation to workout alone can be difficult, but with the help of FitBud, you can make a new friend to help you stay motivated and on track with your goals! <br> Fitbud was an individual Rails project for the August 2014 Web Development Immersive Course at General Assembly DC..
+            </p>
+            <p>
+              Users can sign up, pick favorite activity, and find and message others who also chose a similar activity.
+            </p>
+          </div>
+          <p>
+            <a class="btn btn-default" target="_blank" href="http://fitbud.herokuapp.com/" role="button">Live App &raquo;</a>
+            <a class="btn btn-default" target="_blank" href="https://github.com/ruchimk/fitbud" role="button">GitHub &raquo;</a>
+          </p>
+      </div>
+      <!-- <div class="col-md-2"></div> -->
+      <div class="col-md-6">
+        <div class="device-mockup ipad white landscape speakup">
+            <div class="device">
+                <div class="screen">
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
 
-      <li><a href="http://www.github.com/ruchimk" target=_blank><img src="images/github.png" alt="GitHub" title="GitHub" class="contact-link"></a></li>
+    <br>
+    <hr>
+    <br>
 
-      <li><a href="http://www.twitter.com/ruuuchi" target=_blank><img src="images/twitter.png" alt="Ruchi Malik's Twitter" title="Twitter" class="contact-link"></a></li>
-    </ul>
+    <div class="row parent">
+      <div class="col-md-6 child">
+        <div id="cafe-mapper" class="device-mockup mappetize-macbook">
+            <div class="device">
+                <div id="mappetizer-screen" class="screen">
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-2 child">
+        <div class="device-mockup iphone5 black portrait mappetizer-iphone">
+          <div class="device">
+            <div class="screen"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3><a target="_blank" href="https://github.com/pam-/mappetizer">Shiftable</a></h3>
+          <p class="lead">
+            Making request shift changes easier, simpler, and more convenient than ever before!
+          </p>
+          <div class="project-description">
+            <p>
+              <strong>Shiftable</strong> was made as a group project built on Ruby on Rails & JavaScript. Shiftable provides a reliable, convenient, and simple platform for employees and shift-managers to manage, share and edit shift schedules. It uses full-calendar JS library, and draggable/droppable JS library to make an easy to use calendar for shift managers and employees.
+            </p>
+            <p>
+              Users can log in, admin can assign work shifts to employees, employees can request shift change and admin has the ability to approve or reject requests.
+            </p>
+          </div>
+          <p>
+            <a class="btn btn-default" target="_blank" href="http://shiftable1.herokuapp.com/" role="button">Live Site &raquo;</a>
+            <a class="btn btn-default" target="_blank" href="https://github.com/Babakadam121/shift_management_system" role="button">GitHub &raquo;</a>
+          </p>
+      </div>
+    </div>
 
-    <ul class="deep-links">
-      <li><a href="#intro" class="deep-link">Intro</a></li>
-      <li><a href="#portfolio" class="deep-link">Portfolio</a></li>
-      <li><a href="#about" class="deep-link">About</a></li>
-    </ul>
+    <br>
+    <hr>
+    <br>
 
+    <div class="container skills" id="skills" name="skills">
+      <div class="row" id="ico-container">
+        <h2>Skills</h2>
+        <div class="col-md-3">
+          <i class="icon-javascript"></i>
+          <h3 class="aboutTitles">JS/jQuery</h3>
+          <p>Front End foundations, animations, and lightweight frameworks.</p>
+
+        </div>
+        <div class="col-md-3">
+          <i class="icon-ruby-on-rails-alt"></i>
+          <h3 class="aboutTitles">Ruby on Rails</h3>
+          <p>Full-stack web applications with streamlined database creation.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="icon-ruby"></i>
+          <h3 class="aboutTitles">Ruby</h3>
+          <p>Simplicity and productivity with a bit of sugar thrown in. All the gems.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="icon-html"></i>
+          <h3 class="aboutTitles">HTML/CSS</h3>
+          <p>The latest in markup language and visual presentation.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container about-me" id="about-me" name="about-me">
+    <div class="row">
+      <h2>About Me</h2>
+      <div class="col-md-1"></div>
+      <div class="biograph col-md-10 bio">
+          <p>I am an enthusiastic and discerning collaborator, who has always been facsinated by the world of technology and all its possibilities. I come from a diverse background. I have an educational backround in the life sciences and have worked as a lab tech, government administator, and project manager. However, I had always had an interest in learning how to code, and decided to take the leap this year, and am <strong>so </strong>glad I did! <br>
+           With my new skills, I am ready to make the world a better, more interactive place. I will be graduating from the program in December 2014 and am looking to join forces with an organization where where I can use my skills to make a meaningful social impact. <br>
+          Feel free to check out my <a target="_blank" href="images/ruchimalik_resume_dec14.pdf.pdf">resume</a> and <a href="mailto:rmalik2788@gmail.com">shoot me a quick note </a>!
+        </div>
+      <div class="col-md-1"></div>
+      </div>
   </div>
 
+      <footer>
+        <p>&copy; Ruchi Malik 2014</p>
+      </footer>
+    </div><!--- /.container -->
 
-<div class="wrapper">
 
-    <div id="intro">
-      <div class="intro-content">
-        <p class="intro_title">Hello! I'm Ruchi.</p>
-        <p class="intro_desc">Full stack web-developer looking for opportunities in San Francisco.</p>
-      </div>
-    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script>smoothScroll.init();</script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <div id="portfolio">
-      <h2>Portfolio</h2>
-      <p>In Fall 2014, I began <a href="https://generalassemb.ly/education/web-development-immersive" target=_blank>General Assembly's</a> full-time web development bootcamp, where over the course of 12 weeks I learned Ruby on Rails, Git, PostgreSQL, and JavaScript, HTML5 and CSS3.</p><br><p>Take a look at some of the projects I was able to complete during this time...</p>
-    </div>
-
-      <div class="all-projects">
-        <div class="project">
-          <a href="http://fitbud.herokuapp.com" target=_blank><img src="images/Fitbud.png"></a>
-        <!--   <span id="description">
-            <h3><a href="http://fitbud.herokuapp.com" target=_blank>FitBud</a></h3>
-            <p class="source"><a href="https://github.com/ruchimk/FitBud" target=_blank>Github-View Source</a></p>
-            <p>FitBud is my first Ruby on Rails project. It is an application that makes it easy for users to find others interested in their favorite outdoor activity. Finding the motivation to workout alone can be difficult, but with the help of FitBud, you can make a new friend to help you stay motivated and on track with your goals!</p>
-            <hr><p><b>Technologies</b>: Ruby, Ruby on Rails, Devise, Postgresql</p>
-          </span> -->
-        </div>
-
-        <div class="project">
-          <a href="http://shiftable1.herokuapp.com" target=_blank><img src="images/Shiftable.png"></a>
-     <!--      <span id="description2">
-            <h3><a href="http://shiftable1.herokuapp.com" target=_blank>Shiftable</a></h3>
-            <p class="source"><a href="https://github.com/ruchimk/shift_management_system" target=_blank>Github-View Source</a></p>
-            <p>Shiftable was made as a group project built on Ruby on Rails & JavaScript. Shiftable provides a reliable, convenient, and simple platform for employees and shift-managers to manage, share and edit shift schedules. </p>
-            <hr>
-            <p><b>Technologies</b>: Ruby, Ruby on Rails, Javascript, Postgresql, Devise</p>
-          </span> -->
-        </div>
-
-      </div>
-
-    <div id="about">
-      <div class="about-content">
-        <h2>About</h2>
-        <div class="about-body">
-           <p> I am an enthusiastic and discerning collaborator, who has always been facsinated by the world of technology and all its possibilities.</p><p> I come from a diverse background. I have an educational backround in the life sciences and have worked as a lab tech, government administator, and project manager. However, I had always had an interest in learning how to code, and decided to take the leap this year, and am <strong>so </strong>glad I did! <br>
-           <p> I will be graduating from the program in December and am looking to join forces with an organization where where I can use my skills to make a meaningful social impact. </p>
-        </div>
-        </div>
-     </div>
-   </div>
-
-    <div id="footer">
-      <p>&copy;2014 Ruchi Malik</p>
-    </div>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-57042408-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="portfolio.js"></script>
-</body>
-
+      ga('create', 'UA-57042408-1', 'auto');
+      ga('send', 'pageview');
+      var seconds = 5000;
+      var step = 0;
+      var limit = 5;
+    </script>
+  </body>
 </html>
+
+
+
+
+
+
+
+
+
