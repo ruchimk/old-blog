@@ -1,83 +1,23 @@
 body{
   margin: 0;
   padding: 0;
-  font-family:'helveticaNeue';
 }
 
 .wrapper {
-  font-family: 'Architects Daughter';
+  font-family: 'Josefin Slab', serif;
   padding-top: 91px;
   width:100%;
 }
 
-.responsive_img {
-  background: url('../images/headshot.png') no-repeat center center;
-  background-size: cover;
-}
-/*------navigation------*/
-
-#nav {
-  background-color:black;
-  display: block;
-  position: fixed;
-  top: 0px;
-  width:100%;
-}
-
-#nav .deep-links {
-  float:left;
-  margin-top: 30px;
-}
-
-#nav .deep-links li {
-  display: inline;
-  font-family: 'Architects Daughter';
-  font-size: 25px;
-  list-style: none;
-  margin: 20px;
-}
-
-#nav .deep-link {
-  color: white;
-  text-decoration: none;
-}
-
-#nav .deep-link:hover {
-  text-decoration: underline;
-  text-shadow: 0px 0px 20px orange; color:white;
-}
-
-#nav .contact-links {
-  display: inline;
-  float:right;
-  margin-top: 20px;
-}
-
-#nav .contact-links li{
-  display: inline;
-  list-style: none;
-  margin: 10px 20px;
-}
-
-#nav .contact-links:hover{
-  text-shadow: 0px 0px 20px orange; color:white;
-}
-
-#nav .contact-link {
-  border-radius: 50px;
-  height: 45px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-}
-
 /*------intro------*/
 
-#intro {
+
+.jumbotron {
   background: url('../images/headshot.png') no-repeat center center;
   background-size: cover;
   font-size: 24px;
-  height: calc(100vh - 84px);
-  margin-top: -90px;
+  height: 100vh;
+  margin-top: -40px;
   padding-left: 50%;
   padding-right:10%;
   padding-top: 200px;
@@ -86,12 +26,14 @@ body{
 .intro-content{
  text-align: right;
  display: inline-block;
+ font-size: 1em;
 }
 
 .intro_title {
   text-shadow: 0px 0px 20px orange; color:white;
-  font-size: 3em;
-  font-weight: 400;
+  font-size: 2em;
+  font-family: 'Architects Daughter';
+  font-weight: 400px;
   height: 100px;
   line-height: 80px;
   padding: 10px 20px;
@@ -102,11 +44,11 @@ body{
 
 .intro_desc {
   font-size: 1.5em;
-  font-weight: 200;
+  font-weight: 200px;
+  font-family: 'Architects Daughter';
   height: 20px;
   padding: 0px 10px 10px 5%;*/
   width: 60%;
-  color: white;
 }
 
 /*------portfolio intro------*/
@@ -125,7 +67,6 @@ body{
 
 #portfolio p {
   color:black;
-  font-family: 'Architects Daughter';
   font-size: 30px;
   line-height:35px;
   margin-top:60px;
@@ -142,7 +83,7 @@ body{
 
 /*------portfolio------*/
 
-.all-projects {
+/*.all-projects {
   margin:0 auto;
   width:100%;
   display: inline-block;
@@ -150,8 +91,8 @@ body{
   position:absolute;
   z-index:-20;
   margin:0 auto;
-}
-
+}*/
+/*
 .project {
   display: inline-block;
   width: 48%;
@@ -161,29 +102,17 @@ body{
   position: relative;
   float:left;
 }
-
-.all-projects .project img {
+*/
+.all-projects img {
   border: 4px solid black;
-  width:100%;
-}
-/*
-#description #description2 {
-  color: white;
-  background-color: black;
-  display: inline-block;
-  font-weight:bold;
-  height: 90%;
-  left: 0;
-  padding:10px;
-  position: absolute;
-  top: 0;
-  opacity: 0;
-  width: 95%;
+  width: 48%;
+  margin-left:14px;
+  text-align: center;
+  vertical-align: top;
+  position: relative;
+  float:left;
 }
 
-#description:hover{
-  opacity: .8;
-}*/
 
 .all-projects .project h3 {
   font-family: 'Josefin Slab';
@@ -195,36 +124,23 @@ body{
 .all-projects a {
   color:white;
 }
-
-/*.all-projects .project .description {
-  font-size: 15px;
-  line-height:1.25em;
-  margin-top: 5px;
-  word-wrap: break-word;
+.skills, .portfolio, .about-me {
+  padding-top: 60px;
+  margin-top: -60px;
 }
-
-.all-projects .project .description.source {
-  margin: 0;
-}
-
-.all-projects .project .description .source a {
-  text-decoration: none;
-}
-
-.all-projects .project .description .source a:hover {
-  text-decoration: underline;
-}*/
-
 /*------about------*/
 
-#about {
+.aboutme {
   margin: -90px auto 0 auto;
-  padding: 350px 0 50px 0;
+  padding: 50px 0 50px 0;
   text-align: center;
   width: 100%;
+  font-family: 'Josefin Slab';
+  font-size: 60px;
+  margin-bottom:60px;
 }
 
-.about-content {
+/*.about-content {
   margin: 20px auto 120px auto;
   width: 85%;
 }
@@ -234,24 +150,25 @@ body{
   font-size: 60px;
   margin-bottom:60px;
 }
+*/
 
-.about-content p {
-  font-family: "Architects Daughter";
-  font-size: 30px;
-  line-height: 35px;
+
+/* LANGUAGE ICONS */
+.skills i{
+  font-size: 10em;
 }
-
 
 /*-------Footer---------*/
 
 #footer {
   background-color:black;
-  color:white;
-  font-size: 20px;
-  padding: 40px;
-  text-align: center;
+
 }
 
 #footer p {
   margin:0;
+  color:white;
+  font-size: 20px;
+  padding: 40px;
+  text-align: center;
 }
