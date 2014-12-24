@@ -10,8 +10,9 @@
 
     <title>Ruchi Malik</title>
     <!-- Bootstrap core CSS -->
-    <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+<!--     <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'> -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -37,7 +38,7 @@
             <li><a data-scroll href="#portfolio">Portfolio</a></li>
             <li><a data-scroll href="#skills">Skills</a></li>
             <li><a data-scroll href="#about-me">About Me</a></li>
-            <li><a target="_blank" href="images/ruchimalik_resume.pdf">Resume</a></li>
+            <li><a target="_blank" href="images/ruchimalik_resume_dec14.pdf">Resume</a></li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
@@ -60,23 +61,88 @@
 
 <div class="wrapper">
     <div class="jumbotron" id="jumbotron">
-      <div id="intro" class="brand-statement container">
+      <div id="intro" >
         <h1 class="intro_title">Hello, I'm Ruchi.</h1>
-        <p class="intro_desc">
-          Full-stack developer looking for opportunities in San Francisco.
+        <p class>
+          Spirited, hard working and curious collaborator who approaches web development challenges with enthusiasm and rigor.
+        </p>
+        <p>
+          Dreamer. Maker. Believer in the impossible.
         </p>
       </div>
     </div>
+
+  <div class="container mobile-header">
+    <div class="row">
+      <div class="col-md-12">
+        <img src="images/headshot.jpg" class="img-circle mobile-headshot">
+        <p>
+          Spirited, hard working and curious collaborator who approaches web development challenges with enthusiasm and rigor.
+        </p>
+        <p>
+          Dreamer. Maker. Believer in the impossible.
+        </p>
+      </div>
+    </div>
+  </div>
+
 <br>
 <br>
 <br>
-  <div class="container portfolio" id="portfolio" name="portfolio">
+  <div class="container portfolio" id="portfolio">
     <h2>Portfolio</h2>
     <br>
     <hr>
     <br>
     <div class="row">
       <div class="col-md-6">
+        <div class="device-mockup macbook shiftable-macbook">
+            <div class="device">
+                <div class="screen">
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="device-mockup iphone5 white portrait shiftable-iphone">
+            <div class="device">
+                <div class="screen">
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3><a target="_blank" href="https://github.com/Babakadam121/shift_management_system">Shiftable</a></h3>
+          <p class="lead">
+            Making request shift changes easier, simpler, and more convenient than ever before!
+          </p>
+          <div class="project-description">
+            <p>
+              <strong>Shiftable</strong> was made as a group project built on Ruby on Rails & JavaScript. Shiftable provides a reliable, convenient, and simple platform for employees and shift-managers to manage, share and edit shift schedules. It uses full-calendar JavaScript library, and draggable/droppable library to make an easy to use calendar for shift managers and employees.
+            </p>
+            <p>
+              Users can log in, admin can assign work shifts to employees, employees can request shift change and admin has the ability to approve or reject requests.
+            </p>
+          </div>
+          <p>
+            <a class="btn btn-default" target="_blank" href="http://shiftable1.herokuapp.com/" role="button">Live Site &raquo;</a>
+            <a class="btn btn-default" target="_blank" href="https://github.com/Babakadam121/shift_management_system" role="button">GitHub &raquo;</a>
+          </p>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+  <div class="row">
+      <div class="col-md-8">
+        <div id="cafe-mapper" class="device-mockup macbook fitbud">
+            <div class="device">
+                <div id="fitbud-screen" class="screen">
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4">
         <h3><a target="_blank" href="http://fitbud.herokuapp.com/">Fitbud</a></h3>
           <p class="lead">
             A social media app designed to help you stay fit and meet new people at the same time.
@@ -94,46 +160,7 @@
             <a class="btn btn-default" target="_blank" href="https://github.com/ruchimk/fitbud" role="button">GitHub &raquo;</a>
           </p>
       </div>
-
-
-<div class="row">
-      <div class="col-md-6">
-        <div class="fit-bud">
-         <img src="images/Fitbud.png">
-         </div>
-      </div>
-  </div>
-
-    <br>
-    <hr>
-    <br>
-      <div class="col-md-4">
-        <h3><a target="_blank" href="https://github.com/Babakadam121/shift_management_system">Shiftable</a></h3>
-          <p class="lead">
-            Making request shift changes easier, simpler, and more convenient than ever before!
-          </p>
-          <div class="project-description">
-            <p>
-              <strong>Shiftable</strong> was made as a group project built on Ruby on Rails & JavaScript. Shiftable provides a reliable, convenient, and simple platform for employees and shift-managers to manage, share and edit shift schedules. It uses full-calendar JS library, and draggable/droppable JS library to make an easy to use calendar for shift managers and employees.
-            </p>
-            <p>
-              Users can log in, admin can assign work shifts to employees, employees can request shift change and admin has the ability to approve or reject requests.
-            </p>
-          </div>
-          <p>
-            <a class="btn btn-default" target="_blank" href="http://shiftable1.herokuapp.com/" role="button">Live Site &raquo;</a>
-            <a class="btn btn-default" target="_blank" href="https://github.com/Babakadam121/shift_management_system" role="button">GitHub &raquo;</a>
-          </p>
-      </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="shiftable">
-          <img src="images/Shiftable.png">
-         </div>
-      </div>
-  </div>
-
-
+    </div>
     <br>
     <hr>
     <br>
@@ -143,18 +170,22 @@
         <div class="col-md-3">
           <i class="icon-javascript"></i>
           <h3 class="aboutTitles">JS/jQuery</h3>
+          <p>Front End foundations, animations, and lightweight frameworks.</p>
         </div>
         <div class="col-md-3">
           <i class="icon-ruby-on-rails-alt"></i>
           <h3 class="aboutTitles">Ruby on Rails</h3>
+          <p>Full-stack web applications with streamlined database creation.</p>
         </div>
         <div class="col-md-3">
           <i class="icon-ruby"></i>
           <h3 class="aboutTitles">Ruby</h3>
+          <p>Simplicity and productivity with a bit of sugar thrown in. All the gems.</p>
         </div>
         <div class="col-md-3">
           <i class="icon-html"></i>
           <h3 class="aboutTitles">HTML/CSS</h3>
+          <p>The latest in markup language and visual presentation.</p>
         </div>
       </div>
     </div>
@@ -165,15 +196,15 @@
       <h2>About Me</h2>
       <div class="col-md-1"></div>
       <div class="aboutme col-md-10 bio">
-          <p>I am an enthusiastic and discerning collaborator, who has always been facsinated by the world of technology and all its possibilities. I come from a diverse background. I have an educational backround in the life sciences and have worked as a lab tech, government administator, and project manager. However, I had always had an interest in learning how to code, and decided to take the leap this year, and am <strong>so </strong>glad I did! <br>
-           With my new skills, I am ready to make the world a better, more interactive place. I will be graduating from the program in December 2014 and am looking to join forces with an organization where where I can use my skills to make a meaningful social impact. <br>
-          Feel free to check out my <a target="_blank" href="images/ruchimalik_resume_dec14.pdf.pdf">resume</a> and <a href="mailto:rmalik2788@gmail.com">shoot me a quick note </a>!
+          <p>I am an enthusiastic and discerning collaborator, who has always been facsinated by the world of technology and all its possibilities. I come from a diverse background, having an educational background in the life sciences and have worked as a lab tech, government administator, and project manager. However, I had always had an interest in learning how to code, and decided to take the leap this year, and am <strong>so </strong>glad I did! With my new skills, I am ready to make the world a better, more interactive place. My goal is to join a team whose ideals resonnate with my own, and where I can use my skills to make a meaningful social impact. <br>
+           <br>
+          Feel free to check out my <a target="_blank" href="images/ruchimalik_resume_dec14.pdf">resume</a> or <a href="mailto:rmalik2788@gmail.com">shoot me a quick note </a>!
         </div>
       <div class="col-md-1"></div>
       </div>
   </div>
 </div>
-      <footer id="footer">
+      <footer>
         <p>&copy; Ruchi Malik 2014</p>
       </footer>
     </div><!--- /.container -->
