@@ -23,17 +23,17 @@ footer {
 }
 
 .bio {
-  font-size: 1.1em;
+  font-size: 1em;
   padding: 5%;
 }
 
 #intro {
   background-color: #fff;
-  background-color: rgba(255,255,255,0.45);
-  border-radius: 6px;
+  background-color: rgba(255,255,255,0.25);
+  border-radius: 10px;
   position: absolute;
-  padding: 10px;
-  width: 45%;
+  padding: 9px 5px 5px 9px;
+  width: 50%;
 }
 
 .col-md-4 img {
@@ -61,12 +61,23 @@ footer {
 }
 
 .shiftable-iphone .screen {
-  background-image: url("../images/shiftable-iphone.png");
+/*  background-image: url("../images/shiftable-iphone.png");*/
 }
 
 
 .fitbud .screen {
   background-image: url("../images/Fitbud.png");
+  background-position: center;
+}
+
+.indianfoodfinder .screen {
+  background-image: url("../images/indianfoodfinder.png");
+  background-position: center;
+}
+
+.holidaywishlist .screen {
+  background-image: url("../images/holidaywishlist.png");
+  background-position: center;
 }
 
 .skills, .portfolio, .about-me {
