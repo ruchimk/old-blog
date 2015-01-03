@@ -43,10 +43,6 @@ footer {
   height: 175px;
 }
 
-.holiday-wishlist .screen {
-  background-image: url("../images/holiday-wishlist.jpg");
-}
-
 .portfolio .lead {
   text-align: center;
 }
@@ -76,8 +72,8 @@ footer {
 }
 
 .holidaywishlist .screen {
-  background-image: url("../images/holidaywishlist.png");
-  background-position: center;
+  background-image: url("../images/holidaywishlistroot.png");
+   background-position: center;
 }
 
 .skills, .portfolio, .about-me {
