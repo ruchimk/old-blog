@@ -57,6 +57,10 @@ footer {
 }
 
 .shiftable-iphone .screen {
+  background-image: url("../images/shiftable_iphone.png");
+}
+
+.shiftable-iphone .screen {
 /*  background-image: url("../images/shiftable-iphone.png");*/
 }
 
