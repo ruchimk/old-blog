@@ -32,7 +32,7 @@
           <a data-scroll class="navbar-brand" href="#jumbotron">Ruchi Malik</a>
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav portfolio-nav">
+          <ul class="nav navbar-nav portfolio-nav" id="portfolio-links">
             <li><a data-scroll href="#portfolio">Portfolio</a></li>
             <li><a data-scroll href="#skills">Skills</a></li>
             <li><a data-scroll href="#about-me">About Me</a></li>
@@ -250,7 +250,6 @@
       </div>
     </div>
     <hr>
-
     <div class="container about-me" id="about-me">
     <div class="row">
       <h2>About Me</h2>
@@ -265,18 +264,26 @@
   </div>
 </div>
       <footer>
+        <hr>
         <p>&copy; Ruchi Malik 2014</p>
       </footer>
     </div><!--- /.container -->
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/SmoothScroll.js"></script>
-    <script>smoothScroll.init();</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.14/jquery.scrollTo.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.3.5/jquery.localScroll.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      //scroll the whole document
+      $('#portfolio-links').localScroll({
+        target:'body'
+      });
+    });
+    </script>
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
